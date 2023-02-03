@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_screen/messenger_screen.dart';
 
 import 'login_screen.dart';
 
@@ -13,10 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'LoginScreen',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const MessengerScreen(),
     );
   }
 }
