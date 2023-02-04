@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:login_screen/messenger_screen.dart';
+import 'package:login_screen/users_screen.dart';
 
-import 'login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MessengerScreen(),
+      home: const UsersScreen(),
     );
   }
 }
